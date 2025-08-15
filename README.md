@@ -63,10 +63,9 @@ Compact Overview:
 - Outcome: Demonstrates end-to-end product ownership (data handling → modeling abstractions → front-end UX → deploy). Portable analytics for arbitrary time-series & text datasets.
 
 Planned:
-- Model leaderboard + confidence intervals
-- Exportable experiment bundle (config + metrics JSON)
-- Pluggable lightweight sentiment/forecast models
-- (Optional) WASM acceleration exploration
+- Add model selection leaderboard with confidence intervals
+- WASM-based acceleration exploration (if needed for N-BEATS preview)
+- Pluggable sentiment model registry (VADER → transformer-lite)
 
 ---
 

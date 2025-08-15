@@ -57,27 +57,10 @@
   <img src="https://img.shields.io/badge/Mode-Zero%20Install%20Browser-607d8b" />
 </p>
 
-Compact Overview:
-- Model Lab: CSV upload → automated dataset profile → viz recommendations → time-series forecasting (ARIMA, Prophet, N-BEATS preview) with rolling backtests (MAPE, sMAPE, MAE)
+Current Capabilities:
+- Model Lab: CSV upload → automated dataset profile → visualization suggestions → time-series forecasting (ARIMA, Prophet, N-BEATS preview) with rolling backtests (MAPE, sMAPE, MAE)
 - Sentiment Lab: In-browser VADER sentiment (text / CSV batch) with polarity + confidence (no backend round-trip)
-- Outcome: Demonstrates end-to-end product ownership (data handling → modeling abstractions → front-end UX → deploy). Portable analytics for arbitrary time-series & text datasets.
-
-Planned:
-- Add model selection leaderboard with confidence intervals
-- WASM-based acceleration exploration (if needed for N-BEATS preview)
-- Pluggable sentiment model registry (VADER → transformer-lite)
-
----
-
-### 🚀 Additional Build Tracks (Placeholders)
-
-| Project | Technical Angle | Planned Focus |
-|---------|-----------------|---------------|
-| Market Intelligence Layer | Multi-source normalization & enrichment | Currency handling, fuzzy entity resolution |
-| Compensation Logic Engine | Rules → parametric model | Versioned rule sets, what-if simulation |
-| Lightweight Forecast Service | Demand / anomaly hybrid | Adaptive windowing, backtesting hooks |
-
-(Add repo links when public.)
+- End-to-end: Data handling → modeling abstractions → front-end UX → deploy (all browser-executed for portability)
 
 ---
 
@@ -87,26 +70,6 @@ Planned:
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=tolgakilicarslan&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
   <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tolgakilicarslan&layout=compact&theme=dracula&hide_border=true&langs_count=8" alt="Top Languages"/>
 </p>
-
----
-
-### 🗺 Current Technical Priorities
-
-- Unified ingestion wrapper (retry, backoff, schema verify)
-- Metric layer diffing & snapshot tests
-- Lightweight data quality sentinel (freshness + row-volume deltas)
-- Feature registry (hash-based versioning)
-- Structured logging (JSON + run IDs + input hash)
-
----
-
-### ✅ Internal TODO
-
-- [ ] Replace placeholders with concrete runtime / latency / error deltas
-- [ ] Add SerioLabs architecture diagram
-- [ ] Publish minimal templates (ingestion / transform / quality)
-- [ ] Introduce CI badge (lint, tests) once repos public
-- [ ] Benchmark transformation performance (row throughput)
 
 ---
 

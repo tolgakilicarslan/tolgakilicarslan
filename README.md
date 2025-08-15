@@ -110,12 +110,6 @@ Planned:
 
 ---
 
-### 🔐 Design Principles
-
-Deterministic • Observable • Composable • Contract-Driven • Measurable
-
----
-
 ### 📬 Tech-Only Contact
 
 | Type | Link |

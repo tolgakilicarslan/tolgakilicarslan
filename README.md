@@ -62,24 +62,6 @@ Portable, zero-install analytics + lightweight ML directly in the browser.
 Outcome:
 Demonstrates full product ownership (data processing → modeling logic → UX layer → deploy). Validates concept of portable analytics tooling for arbitrary time-series & text datasets without backend dependency.
 
-Planned Enhancements:
-- Add model selection leaderboard with confidence intervals
-- WASM-based acceleration exploration (if needed for N-BEATS preview)
-- Pluggable sentiment model registry (VADER → transformer-lite)
-- Exportable experiment bundle (config + metrics JSON)
-
----
-
-### 🚀 Additional Build Tracks (Placeholders)
-
-| Project | Technical Angle | Planned Focus |
-|---------|-----------------|---------------|
-| Market Intelligence Layer | Multi-source normalization & enrichment | Currency handling, fuzzy entity resolution |
-| Compensation Logic Engine | Rules → parametric model | Versioned rule sets, what-if simulation |
-| Lightweight Forecast Service | Demand / anomaly hybrid | Adaptive windowing, backtesting hooks |
-
-(Add repo links when public.)
-
 ---
 
 ### 📈 GitHub Snapshot
@@ -90,7 +72,6 @@ Planned Enhancements:
 </p>
 
 ---
-
 
 ### 📬 Tech-Only Contact
 

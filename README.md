@@ -1,10 +1,12 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&center=true&vCenter=true&width=760&lines=Tolga+Kilicarslan+%E2%80%93+Data+%26+Analytics+Engineering;Architecting+AI%2FAnalytics+Platforms;Automation-First+Data+Product+Mindset" alt="Typing Intro">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&center=true&vCenter=true&width=750&lines=Tolga+Kilicarslan+%E2%80%93+Data+%26+Analytics+Engineering;Architecting+AI+%2B+Analytics+Platforms;Automation-First+Data+Product+Mindset" alt="Typing Intro">
 </p>
 
 <h1 align="center">Hi, I'm Tolga 👋</h1>
 
-<p align="center"><strong>Building modular data & analytics systems: ingestion → modeling → ML → insight delivery.</strong></p>
+<p align="center">
+  <strong>Building modular data & analytics systems: ingestion → modeling → ML → insight delivery.</strong>
+</p>
 
 <p align="center">
   <a href="https://tolgakilicarslan.com"><img src="https://img.shields.io/badge/Portfolio-Website-222222?style=for-the-badge&logo=amp&logoColor=white" /></a>
@@ -22,7 +24,7 @@
 | Data Engineering | Reusable ingestion + ELT layers, semantic modeling | Python, SQL, dbt-style patterns |
 | Pipelines & Orchestration | Deterministic & idempotent workflows | Scheduling, dependency graphs |
 | Analytics Products | Metric layers + governance boundaries | KPI modeling, versioned transforms |
-| ML Enablement | Feature prep + deployment hooks | scikit-learn, forecasting, feature registry |
+| ML Enablement | Feature prep + deployment hooks | scikit-learn, lightweight services |
 | Automation | Script repetitive ops → APIs / scripts | Apps Script, Python tooling |
 | Observability | Data quality & pipeline health checks | Freshness, anomaly triggers |
 
@@ -46,21 +48,37 @@
 
 ---
 
-### 🏗 SerioLabs (In‑Browser Analytics Suite)
+### 🏗 Featured Technical Project – SerioLabs: In-Browser Analytics Suite (2025– )
 
-<p>
-  <img src="https://img.shields.io/badge/Module-Model%20Lab-4B8BFF" />
-  <img src="https://img.shields.io/badge/Module-Sentiment%20Lab-6A5ACD" />
-  <img src="https://img.shields.io/badge/Tech-ARIMA%20%7C%20Prophet%20%7C%20N--BEATS%20Preview-ff9800" />
-  <img src="https://img.shields.io/badge/Feature-Backtests%20%26%20Metrics-009688" />
-  <img src="https://img.shields.io/badge/Feature-VADER%20Sentiment-673ab7" />
-  <img src="https://img.shields.io/badge/Mode-Zero%20Install%20Browser-607d8b" />
-</p>
+Portable, zero-install analytics + lightweight ML directly in the browser.
 
-Current Capabilities:
-- Model Lab: CSV upload → automated dataset profile → visualization suggestions → time-series forecasting (ARIMA, Prophet, N-BEATS preview) with rolling backtests (MAPE, sMAPE, MAE)
-- Sentiment Lab: In-browser VADER sentiment (text / CSV batch) with polarity + confidence (no backend round-trip)
-- End-to-end: Data handling → modeling abstractions → front-end UX → deploy (all browser-executed for portability)
+| Module | Capabilities | Notes |
+|--------|--------------|-------|
+| Model Lab | CSV upload → automated dataset profile → recommended visualization primitives → time-series forecasting (ARIMA, Prophet, N-BEATS preview UI) with rolling backtests & error metrics | Emphasis on rapid exploratory forecasting |
+| Sentiment Lab | In-browser VADER sentiment scoring for ad‑hoc text or batch CSV fields; polarity + confidence surface | Local processing (no server round‑trip) |
+| Core UX | Clean module switching, state persistence (session scope), minimal friction import → insight | Designed for fast iteration |
+| Metrics & Backtests | Rolling origin / expanding window evaluation, MAPE / sMAPE / MAE set | Enables quick comparative model triage |
+
+Outcome:
+Demonstrates full product ownership (data processing → modeling logic → UX layer → deploy). Validates concept of portable analytics tooling for arbitrary time-series & text datasets without backend dependency.
+
+Planned Enhancements:
+- Add model selection leaderboard with confidence intervals
+- WASM-based acceleration exploration (if needed for N-BEATS preview)
+- Pluggable sentiment model registry (VADER → transformer-lite)
+- Exportable experiment bundle (config + metrics JSON)
+
+---
+
+### 🚀 Additional Build Tracks (Placeholders)
+
+| Project | Technical Angle | Planned Focus |
+|---------|-----------------|---------------|
+| Market Intelligence Layer | Multi-source normalization & enrichment | Currency handling, fuzzy entity resolution |
+| Compensation Logic Engine | Rules → parametric model | Versioned rule sets, what-if simulation |
+| Lightweight Forecast Service | Demand / anomaly hybrid | Adaptive windowing, backtesting hooks |
+
+(Add repo links when public.)
 
 ---
 
@@ -73,6 +91,7 @@ Current Capabilities:
 
 ---
 
+
 ### 📬 Tech-Only Contact
 
 | Type | Link |
@@ -84,4 +103,4 @@ Current Capabilities:
 
 ---
 
-> Lowering the marginal cost of new analytics & ML questions via modular, observable data components.
+> Focused on lowering the marginal cost of new analytics & ML questions through modular, observable data components.
